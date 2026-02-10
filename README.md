@@ -42,3 +42,29 @@ Clone the repository and install the required dependencies:
 git clone [https://github.com/YOUR_USERNAME/Agentic-Supply-Chain-Optimizer.git](https://github.com/YOUR_USERNAME/Agentic-Supply-Chain-Optimizer.git)
 cd Agentic-Supply-Chain-Optimizer
 pip install -r requirements.txt
+
+
+### 3. Authentication
+Authenticate your local machine with Google Cloud to allow the agent to use Gemini:
+
+Bash
+gcloud auth application-default login
+
+4. Running the Dashboard
+Launch the interactive Streamlit interface:
+
+Bash
+streamlit run app.py
+
+📂 File Structure
+app.py: Streamlit dashboard and UI layout.
+
+agent_logic.py: Gemini tool-calling and LLM reasoning logic.
+
+supply_chain_env.py: Custom RL environment modeling the 50-node network.
+
+supply_chain_ppo_model.zip: The pre-trained Reinforcement Learning model.
+
+Supply chain logistics problem.xlsx: Raw logistics data from Kaggle.
+
+
