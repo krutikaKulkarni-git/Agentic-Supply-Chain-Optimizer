@@ -56,7 +56,7 @@ Launch the interactive Streamlit interface:
 Bash
 streamlit run app.py
 
-📂 File Structure
+##📂 File Structure
 app.py: Streamlit dashboard and UI layout.
 
 agent_logic.py: Gemini tool-calling and LLM reasoning logic.
